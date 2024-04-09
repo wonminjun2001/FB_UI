@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+}
+
+/* Header */
+.header {
+    z-index: 2;
+    position: sticky;
+    top: 0;
+    padding: 5px 5%;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    height: 55px;
+    background: #006aff;
+}
+
+.header .header-left {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.header .header-left ul {
+    display: flex;
+    gap: 30px;
+}
+
+.header .header-left ul li {
+    list-style: none;
+}
+
+.header-left a img {
+    width: 200px;
+}
+
+.header .header-left ul li img {
+    cursor: pointer;
+    width: 25px;
+}
+
+/* right */
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header-right .box-search input {
+    outline: none;
+    padding-left: 25px;
+    border-radius: 20px;
+    height: 26px;
+    border: 1px solid gray;
+}
+
+.header-right .box-search {
+    position: relative;
+}
+
+.header-right .box-search img {
+    top: 8px;
+    width: 14px;
+    position: absolute;
+    left: 7px;
+}
+
+.avatar_img {
+    position: relative;
+}
+
+.avatar_img a img {
+    width: 35px;
+    border-radius: 50%;
+}
+
+.online:after {
+    right: 3px;
+    top: 0;
+    position: absolute;
+    border-radius: 50%;
+    width: 7px;
+    content: "";
+    height: 7px;
+    background: #27ff00;
+    display: block;
+}
+
+/* end Header */
+
+
+/* start main */
+.main {
+    background: rgb(231, 226, 226);
+    padding: 20px 5%;
+    display: flex;
+    gap: 15px;
+}
+
+.main .main-left {
+    width: 23%;
+}
+
+.main .main-center {
+    width: 57%;
+}
+
+.main .main-right {
+    flex-grow: 1;
+    /* chiếm hết chiều rộng còn thừa */
+    background: khaki;
+}
+
+.main .main-left .icon-item {
+    padding-bottom: 20px;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+
+.main .main-left .icon-item img {
+    width: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #006aff;
+}
+
+.main-left-item {
+    padding-bottom: 20px;
+}
+
+.p-short_cuts {
+    padding: 20px 0;
+}
+
+/* story */
+.list-story {
+    display: flex;
+    gap: 20px;
+}
+
+.list-story .story {
+    position: relative;
+    cursor: pointer;
+    width: 20%;
+}
+
+.list-story .story .avatar {
+    border-radius: 12px;
+    width: 100%;
+    height: 100%;
+}
+
+.story .upload {
+    position: absolute;
+    left: 40%;
+    bottom: 15%;
+    width: 40px;
+}
+
+.story .member {
+    border: 3px solid #0072ff;
+    left: 7px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    top: 4px;
+    position: absolute;
+}
+
+.story h4 {
+    color: white;
+    position: absolute;
+    left: 30%;
+    bottom: 5%;
+}
+
+.overlay {
+    border-radius: 12px;
+    position: absolute;
+    background: #0101015c;
+    width: 100%;
+    height: 100%;
+}
+
+/* end story */
+
+.bg {
+    background: white;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.box-user img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.box-user {
+    align-items: center;
+    padding-bottom: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.write-status textarea {
+    outline: none;
+    border: none;
+    width: 100%;
+    resize: none;
+}
+
+.write-status {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.action-status ul {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.action-status ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.action-status ul li img {
+    width: 30px;
+}
+
+.box-title img {
+    width: 100%;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.react-icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.react-icon-left {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.react-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.react-item img {
+    width: 25px;
+}
+.react-icon-right img {
+    width: 40px;
+    border-radius: 50%;
+}
+/* end main */
